@@ -1,0 +1,9 @@
+@import'./variaveis.scss';
+@import'./main.scss';
+@import'./header.scss';
+@import'./responsive.scss';
+@import'./bootstrap.min.scss';
+
+body{
+  background-color: $cor-primaria; 
+}

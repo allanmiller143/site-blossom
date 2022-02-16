@@ -1,0 +1,47 @@
+main{
+  section{
+    
+    .p-left{
+      padding-left: 50px;
+      padding-top: 110px;
+      color:$cor-secundaria;
+      h1{
+        font-weight: 700;
+        padding-bottom: 20px;
+        font-size: 55px;
+      }
+      h2{
+      font-size: 25px;
+      }
+      p{
+        font-size: 23px;
+      }
+      button{
+       background-color: rgb(67, 189, 189);
+       border-radius: 20px;
+       padding: 15px 70px;
+       border: none;
+       font-weight: 900;
+       color:$cor-secundaria;
+       margin: 20px 0px;
+      }
+      nav{
+        padding-bottom: 100px;
+        
+        a{
+          color:$cor-secundaria;
+          text-decoration: none;  
+        }
+      }
+
+    }
+    
+    .p-right{    
+      width: 100%;
+      background-image: url(/assets/images/img-principal.png);
+      background-repeat: no-repeat;
+      background-size:50em;
+      
+    }
+  }
+}
